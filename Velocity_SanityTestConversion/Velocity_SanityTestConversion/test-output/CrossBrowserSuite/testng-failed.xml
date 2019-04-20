@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [CrossBrowserSuite]">
+  <test name="Distributor Without Licence On Firefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="EspWebsiteLogoCheck"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+    </classes>
+  </test> <!-- Distributor Without Licence On Firefox(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->

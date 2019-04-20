@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  Special and Trade Feature With Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Special and Trade Feature With Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 13 09:34:46 PKT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>993 seconds (993731 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.AddShape()'><b>AddShape</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>19</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.AddTheme()'><b>AddTheme</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>55</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.AddTrade()'><b>AddTrade</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>13</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.ApprovedBulkTrade()'><b>ApprovedBulkTrade</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>11</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.ApprovedTrade()'><b>ApprovedTrade</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>3</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.AssignShapeToProduct_WithShapeDeletionError_Verification()'><b>AssignShapeToProduct_WithShapeDeletionError_Verification</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>283</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.CopyProducts_FromSpecials()'><b>CopyProducts_FromSpecials</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>25</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.Copy_Special()'><b>Copy_Special</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>35</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.DeleteShape()'><b>DeleteShape</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>78</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.DeleteTheme()'><b>DeleteTheme</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>27</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.DeleteTrade()'><b>DeleteTrade</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>4</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.Delete_Product_From_Specials()'><b>Delete_Product_From_Specials</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>14</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.EditShape()'><b>EditShape</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>10</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.EditTradeName()'><b>EditTradeName</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>4</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.Inactivate_Specials()'><b>Inactivate_Specials</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>7</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.Manage_Products_Add_to_Specials()'><b>Manage_Products_Add_to_Specials</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>27</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.MediaLibrarySelectAll()'><b>MediaLibrarySelectAll</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>12</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.MediaLibrarySort()'><b>MediaLibrarySort</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>32</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.ProductsInsert_Specials()'><b>ProductsInsert_Specials</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>20</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.RejectBulkTrade()'><b>RejectBulkTrade</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>31</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.RejectTrade()'><b>RejectTrade</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>40</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.SearchShape()'><b>SearchShape</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>3</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.SearchTheme()'><b>SearchTheme</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>27</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.SearchTradeName()'><b>SearchTradeName</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>5</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.SpecialsCreation()'><b>SpecialsCreation</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>46</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.SpecialsExpiration_NotMoreThan180Days()'><b>SpecialsExpiration_NotMoreThan180Days</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>15</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.SpecifyTaxCategory()'><b>SpecifyTaxCategory</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>39</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.Supplier_asinumber_Insertion()'><b>Supplier_asinumber_Insertion</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>13</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.UpdateTheme()'><b>UpdateTheme</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>30</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.Update_Specials()'><b>Update_Specials</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>24</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+<tr>
+<td title='Execution_Suite.Specials_and_Trade_Features.login()'><b>login</b><br>Test class: Execution_Suite.Specials_and_Trade_Features</td>
+<td></td>
+<td>11</td>
+<td>Execution_Suite.Specials_and_Trade_Features@f6c48ac</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Videos Feature On Firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Videos Feature On Firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Mar 11 04:27:54 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>714 seconds (714768 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.AddingVideosOnProductLevel()'><b>AddingVideosOnProductLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>99</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.AssociatedProduct_WithVimeovideo()'><b>AssociatedProduct_WithVimeovideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>37</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.AssociatedProduct_WithYoutubevideo()'><b>AssociatedProduct_WithYoutubevideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>47</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.DeleteFaceBook_VideoSupplierLevel()'><b>DeleteFaceBook_VideoSupplierLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>39</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.DeleteVideo()'><b>DeleteVideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>19</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.DeleteVideo_FromMediaLibrary_AtProductLevel()'><b>DeleteVideo_FromMediaLibrary_AtProductLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>39</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.DeleteVimeoVideo()'><b>DeleteVimeoVideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>15</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.FacebookVideoCreation_SupplierLevel()'><b>FacebookVideoCreation_SupplierLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>21</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.MediaLibraryProductLevel_UpdateVideo()'><b>MediaLibraryProductLevel_UpdateVideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>25</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.MediaLibraryVideoSanity_VimeoProductLevel()'><b>MediaLibraryVideoSanity_VimeoProductLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>19</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.MediaLibraryVideoSanity_Youtube()'><b>MediaLibraryVideoSanity_Youtube</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>32</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.SaveChanges_AfterVideoProductLevelSanity()'><b>SaveChanges_AfterVideoProductLevelSanity</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>28</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.SearchVideo()'><b>SearchVideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>21</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.SearchVimeoVideo()'><b>SearchVimeoVideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>21</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.SupplierSearch()'><b>SupplierSearch</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>2</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.ToggleAPI_AtSupplierLevel()'><b>ToggleAPI_AtSupplierLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>69</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.UpdateFacebook_SupplierLevel()'><b>UpdateFacebook_SupplierLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>18</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.UpdateVimeoVideo()'><b>UpdateVimeoVideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>33</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.UpdateYoutubeVideo()'><b>UpdateYoutubeVideo</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>32</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.VideoIntegrationWithProduct_FromMediaLibraryProductLevel()'><b>VideoIntegrationWithProduct_FromMediaLibraryProductLevel</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>43</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.VideosSearch_ProductLevelMediaLibrary()'><b>VideosSearch_ProductLevelMediaLibrary</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>22</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+<tr>
+<td title='Execution_Suite.Videos_Features.login()'><b>login</b><br>Test class: Execution_Suite.Videos_Features</td>
+<td></td>
+<td>15</td>
+<td>Execution_Suite.Videos_Features@67b64c45</td></tr>
+</table><p>
+</body>
+</html>

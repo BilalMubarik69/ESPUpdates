@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite allow-return-values="false"  configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" junit="false" name="Velocity App" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5" verbose="10">
+
+ 
+
+<test name="Supplier Without EIT Manager Licence On Firefox Browser">
+ 
+ <parameter name="browser" value="chrome" />
+
+<classes>
+ 
+ <class name="Execution_Suite.Velocity_Withoutlicence_Supplier" />
+ 
+ </classes>
+ 
+ </test>
+
+
+
+<test name="Distributor Without Licence On Firefox">
+ 
+ <parameter name="browser" value="chrome" />
+
+<classes>
+ 
+ <class name="Execution_Suite.Velocity_Distributor_WithoutLicence" />
+ 
+ </classes>
+ 
+ </test>
+
+<test name="Videos Feature On Firefox">
+ 
+ <parameter name="browser" value="chrome" />
+
+<classes>
+ 
+ <class name="Execution_Suite.Videos_Features" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="DistributorWithLicence Firefox">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.Velocity_Distributor_WithLicence"/> 
+  
+ 
+ </classes>
+ 
+ </test>
+ 
+ 
+
+ <test name="Decorator With Chrome">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.Velocity_WithoutLicence_Decorator" />
+ 
+ </classes>
+ 
+ </test>
+
+ <test name="Special and Trade Feature With Chrome">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.Specials_and_Trade_Features" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="Restricted Words and Validations With Chrome">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.RestrictedWords_and_Validations_Features" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="Categories Feature With Firefox">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.Categories_Features" />
+ 
+ </classes>
+ 
+ </test>
+
+
+
+
+
+</suite>
+

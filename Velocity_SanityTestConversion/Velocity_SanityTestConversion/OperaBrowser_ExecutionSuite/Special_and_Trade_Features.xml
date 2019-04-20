@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="CrossBrowserSuite" parallel="none">
+    
+  <test name="Special and Trade Feature With Opera">
+ 
+ <parameter name="browser" value="opera" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.Specials_and_Trade_Features" />
+ 
+ </classes>
+ 
+ </test>
+ 
+  </suite>

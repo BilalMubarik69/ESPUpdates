@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="CrossBrowserSuite" parallel="none">
+    
+<test name="DistributorWithLicence Firefox">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.Velocity_Distributor_WithLicence"/> 
+  
+ 
+ </classes>
+ 
+ </test>
+ 
+</suite>

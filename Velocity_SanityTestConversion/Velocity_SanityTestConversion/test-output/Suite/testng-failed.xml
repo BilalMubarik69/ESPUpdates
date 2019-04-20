@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="AddSharedProduct"/>
+          <include name="DistributorSearch"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="AddSharedProduct"/>
+          <include name="DistributorSearch"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="AddSharedProduct"/>
+          <include name="DistributorSearch"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

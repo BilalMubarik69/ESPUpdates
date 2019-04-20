@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Velocity App]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Supplier Without EIT Manager Licence On Firefox Browser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+      <class name="Execution_Suite.Categories_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.Categories_Features -->
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+      <class name="Execution_Suite.Velocity_WithoutLicence_Decorator">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithoutLicence_Decorator -->
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="ProductInActivation"/>
+          <include name="teardown"/>
+          <include name="BulKEdit"/>
+          <include name="DeleteImageFromProduct"/>
+          <include name="AddUpdate_Product_MultiplePriceGrid"/>
+          <include name="CopyProduct"/>
+          <include name="ScheduledProductActivation"/>
+          <include name="DefaultSearch"/>
+          <include name="getResult"/>
+          <include name="AddUpdate_Product"/>
+          <include name="SearchWithKeyword"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+      <class name="Execution_Suite.Specials_and_Trade_Features">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Specials_and_Trade_Features -->
+      <class name="Execution_Suite.Videos_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Execution_Suite.Videos_Features -->
+      <class name="Execution_Suite.RestrictedWords_and_Validations_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.RestrictedWords_and_Validations_Features -->
+    </classes>
+  </test> <!-- Supplier Without EIT Manager Licence On Firefox Browser(failed) -->
+  <test name="Distributor Without Licence On Firefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="AddSharedProduct"/>
+          <include name="setup"/>
+          <include name="NavigationfromWebsitesToCustomProducts"/>
+          <include name="teardown"/>
+          <include name="CopyProductAndUpdate"/>
+          <include name="CreateCustomProducts"/>
+          <include name="PrivateProductAdd"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+      <class name="Execution_Suite.Categories_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.Categories_Features -->
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+      <class name="Execution_Suite.Velocity_WithoutLicence_Decorator">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithoutLicence_Decorator -->
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+      <class name="Execution_Suite.Specials_and_Trade_Features">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Specials_and_Trade_Features -->
+      <class name="Execution_Suite.Videos_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Execution_Suite.Videos_Features -->
+      <class name="Execution_Suite.RestrictedWords_and_Validations_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.RestrictedWords_and_Validations_Features -->
+    </classes>
+  </test> <!-- Distributor Without Licence On Firefox(failed) -->
+  <test name="DistributorWithLicence Firefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+      <class name="Execution_Suite.Categories_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.Categories_Features -->
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="AddSharedProduct"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+      <class name="Execution_Suite.Velocity_WithoutLicence_Decorator">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithoutLicence_Decorator -->
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+      <class name="Execution_Suite.Specials_and_Trade_Features">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Specials_and_Trade_Features -->
+      <class name="Execution_Suite.Videos_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Execution_Suite.Videos_Features -->
+      <class name="Execution_Suite.RestrictedWords_and_Validations_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.RestrictedWords_and_Validations_Features -->
+    </classes>
+  </test> <!-- DistributorWithLicence Firefox(failed) -->
+  <test name="Decorator With Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+      <class name="Execution_Suite.Categories_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.Categories_Features -->
+      <class name="Execution_Suite.Velocity_WithoutLicence_Decorator">
+        <methods>
+          <include name="AddSharedProductDecorator"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithoutLicence_Decorator -->
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+      <class name="Execution_Suite.Specials_and_Trade_Features">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Specials_and_Trade_Features -->
+      <class name="Execution_Suite.Videos_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Execution_Suite.Videos_Features -->
+      <class name="Execution_Suite.RestrictedWords_and_Validations_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.RestrictedWords_and_Validations_Features -->
+    </classes>
+  </test> <!-- Decorator With Chrome(failed) -->
+  <test name="Special and Trade Feature With Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+      <class name="Execution_Suite.Categories_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.Categories_Features -->
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+      <class name="Execution_Suite.Velocity_WithoutLicence_Decorator">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithoutLicence_Decorator -->
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+      <class name="Execution_Suite.Specials_and_Trade_Features">
+        <methods>
+          <include name="ApprovedTrade"/>
+          <include name="setup"/>
+          <include name="EditTradeName"/>
+          <include name="MediaLibrarySelectAll"/>
+          <include name="SpecifyTaxCategory"/>
+          <include name="teardown"/>
+          <include name="SearchTradeName"/>
+          <include name="RejectTrade"/>
+          <include name="ApprovedBulkTrade"/>
+          <include name="getResult"/>
+          <include name="RejectBulkTrade"/>
+          <include name="MediaLibrarySort"/>
+        </methods>
+      </class> <!-- Execution_Suite.Specials_and_Trade_Features -->
+      <class name="Execution_Suite.Videos_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Execution_Suite.Videos_Features -->
+      <class name="Execution_Suite.RestrictedWords_and_Validations_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.RestrictedWords_and_Validations_Features -->
+    </classes>
+  </test> <!-- Special and Trade Feature With Chrome(failed) -->
+  <test name="Restricted Words and Validations With Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+      <class name="Execution_Suite.Categories_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.Categories_Features -->
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+      <class name="Execution_Suite.Velocity_WithoutLicence_Decorator">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithoutLicence_Decorator -->
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+      <class name="Execution_Suite.Specials_and_Trade_Features">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Specials_and_Trade_Features -->
+      <class name="Execution_Suite.Videos_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Execution_Suite.Videos_Features -->
+      <class name="Execution_Suite.RestrictedWords_and_Validations_Features">
+        <methods>
+          <include name="AfterCopyProduct_FieldsDefaultBehaviourValidation"/>
+          <include name="ScoreCard_EmailFrequency"/>
+          <include name="CategorySaving_WithEITCategory_WithProductCategory"/>
+          <include name="EITAdmin_SupplierLevel_Validations"/>
+          <include name="ColorAttributes_AutoRename"/>
+          <include name="Availability_CheckUncheckAll_Verification"/>
+          <include name="Product_WithRestrictedWords"/>
+          <include name="NewProductFilter_Validation"/>
+          <include name="getResult"/>
+          <include name="Product_InLegalReview"/>
+          <include name="teardown"/>
+          <include name="AddNewColors"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.RestrictedWords_and_Validations_Features -->
+    </classes>
+  </test> <!-- Restricted Words and Validations With Chrome(failed) -->
+  <test name="Categories Feature With Firefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution_Suite.Velocity_Distributor_WithoutLicence">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithoutLicence -->
+      <class name="Execution_Suite.Categories_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="ReassignCategoryToProduct"/>
+          <include name="BulkEdit_ChangeRadioButtons"/>
+          <include name="setup"/>
+          <include name="EITAdminMessageCenter_SummaryDisplay"/>
+        </methods>
+      </class> <!-- Execution_Suite.Categories_Features -->
+      <class name="Execution_Suite.Velocity_Distributor_WithLicence">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Distributor_WithLicence -->
+      <class name="Execution_Suite.Velocity_WithoutLicence_Decorator">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithoutLicence_Decorator -->
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+      <class name="Execution_Suite.Specials_and_Trade_Features">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Execution_Suite.Specials_and_Trade_Features -->
+      <class name="Execution_Suite.Videos_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Execution_Suite.Videos_Features -->
+      <class name="Execution_Suite.RestrictedWords_and_Validations_Features">
+        <methods>
+          <include name="getResult"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Execution_Suite.RestrictedWords_and_Validations_Features -->
+    </classes>
+  </test> <!-- Categories Feature With Firefox(failed) -->
+</suite> <!-- Failed suite [Velocity App] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="CrossBrowserSuite" parallel="none">
+    
+ <test name="Restricted Words and Validations With Chrome">
+ 
+ <parameter name="browser" value="firefox" />
+ 
+ <classes>
+ 
+ <class name="Execution_Suite.RestrictedWords_and_Validations_Features" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ </suite>

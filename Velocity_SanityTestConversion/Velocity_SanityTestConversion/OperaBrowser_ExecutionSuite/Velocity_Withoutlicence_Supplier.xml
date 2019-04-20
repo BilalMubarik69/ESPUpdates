@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="CrossBrowserSuite" parallel="none">
+    
+    <test name="Supplier Without EIT Manager Licence On Firefox Browser">
+ 
+ <parameter name="browser" value="opera" />
+
+<classes>
+ 
+ <class name="Execution_Suite.Velocity_Withoutlicence_Supplier" />
+ 
+ </classes>
+ 
+ </test>
+ 
+    </suite>

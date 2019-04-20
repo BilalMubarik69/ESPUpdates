@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" junit="false" name="Velocity App" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5" verbose="10">
+
+   <test name="VelocityWithoutLicence Supplier">
+      
+      <classes>
+         
+         <class name="Execution_Suite.Velocity_Withoutlicence_Supplier"/>
+         
+         
+         
+      
+         
+        
+
+      </classes>
+   </test>
+
+<test name="VelocityWithLicence Supplier">
+
+    <classes>
+     <class name="Execution_Suite.Velocity_WithLicence_Supplier"/>   
+        
+    </classes>
+    
+  </test>  
+
+<test name="VelocityWithoutLicence Distributor">
+
+    <classes>
+     <class name="Execution_Suite.Velocity_Distributor_WithoutLicence"/>  
+        
+    </classes>
+    
+  </test>  
+
+<test name="VelocityWithLicence Distributor">
+
+    <classes>
+     <class name="Execution_Suite.Velocity_Distributor_WithLicence"/>  
+        
+    </classes>
+    
+  </test>  
+
+<test name="VelocityWithoutLicence Decorator">
+
+    <classes>
+        <class name="Execution_Suite.Velocity_WithoutLicence_Decorator"/>  
+        
+    </classes>
+    
+  </test>  
+
+
+<test name="VelocityWithLicence NewFeatures">
+
+    <classes>
+         <class name="Execution_Suite.Velocity_NewFeatures_WithLicence"/>  
+        
+    </classes>
+    
+  </test>  
+
+<test name="VelocityWithLicence NewFeatures Supplier">
+
+    <classes>
+         <class name="Execution_Suite.Velocity_NewFeatures_Supplier"/>  
+        
+    </classes>
+    
+  </test>  
+
+
+
+</suite>

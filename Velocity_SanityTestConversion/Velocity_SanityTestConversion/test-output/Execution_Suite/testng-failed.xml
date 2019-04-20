@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Execution_Suite]">
+  <test name="Velocity Distributor(failed)">
+    <classes>
+      <class name="Execution_Suite.Velocity_Withoutlicence_Supplier">
+        <methods>
+          <include name="setup"/>
+          <include name="DeleteImageFromProduct"/>
+          <include name="MoreSearchFilter"/>
+          <include name="ProductSortByNumber"/>
+          <include name="ProductDelete"/>
+          <include name="SupplierInfo"/>
+          <include name="NavigateFromSearchToManageProducts"/>
+          <include name="ProductInActivation"/>
+          <include name="BulKEdit"/>
+          <include name="login"/>
+          <include name="AddUpdate_Product_MultiplePriceGrid"/>
+          <include name="CopyProduct"/>
+          <include name="HelpLicenceAgreement"/>
+          <include name="ScheduledProductActivation"/>
+          <include name="DefaultSearch"/>
+          <include name="ProductSortByName"/>
+          <include name="AddUpdate_Product"/>
+          <include name="EspLogoCheck"/>
+          <include name="SearchWithKeyword"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_Withoutlicence_Supplier -->
+    </classes>
+  </test> <!-- Velocity Distributor(failed) -->
+</suite> <!-- Failed suite [Execution_Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Execution_Suite.Velocity_WithLicence_Supplier">
+        <methods>
+          <include name="SGRSearch"/>
+          <include name="getResult"/>
+          <include name="EITAdminSanity"/>
+          <include name="Scorecard_ProductMissingSize"/>
+          <include name="setup"/>
+          <include name="ExportImport_Buttons_Disable_SupplierCustomerLevel"/>
+          <include name="teardown"/>
+          <include name="ExportImport_Buttons_Enable_SupplierCustomerLevel"/>
+        </methods>
+      </class> <!-- Execution_Suite.Velocity_WithLicence_Supplier -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
